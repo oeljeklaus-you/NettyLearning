@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter01/Chapter01.iml" filepath="$PROJECT_DIR$/Chapter01/Chapter01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02EchoClient/Chapter02EchoClient.iml" filepath="$PROJECT_DIR$/Chapter02EchoClient/Chapter02EchoClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02EchoServer/Chapter02EchoServer.iml" filepath="$PROJECT_DIR$/Chapter02EchoServer/Chapter02EchoServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyLearning.iml" filepath="$PROJECT_DIR$/NettyLearning.iml" />
+    </modules>
+  </component>
+</project>
