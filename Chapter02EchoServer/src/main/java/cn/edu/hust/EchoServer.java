@@ -41,12 +41,12 @@ public class EchoServer {
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
 
                             socketChannel.pipeline().addLast(echoServerHandler);
-                            //异步地绑定服务器;调用sync()方法阻塞等到绑定完成
-                            ChannelFuture f=bootstrap.bind().sync();
-                            //获取Channel的closeFuture并且阻塞当前线程直到它完成
-                            f.channel().closeFuture().sync();
                         }
                     });
+            //异步地绑定服务器;调用sync()方法阻塞等到绑定完成
+            ChannelFuture f=bootstrap.bind().sync();
+            //获取Channel的closeFuture并且阻塞当前线程直到它完成
+            f.channel().closeFuture().sync();
         }finally {
             //关闭eventLoopGroup并释放所有资源
             eventLoopGroup.shutdownGracefully().sync();

@@ -11,19 +11,22 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import java.net.InetSocketAddress;
 
 public class EchoClient {
+    private final String hostname;
     private final int port;
 
-    public EchoClient(int port) {
+    public EchoClient(String hostname,int port) {
+        this.hostname=hostname;
         this.port = port;
     }
 
     public static void main(String[] args) throws InterruptedException {
-        if(args.length!=1)
+        if(args.length!=2)
         {
-            System.err.println("the Usage:"+EchoClient.class.getSimpleName()+"<port>");
+            System.err.println("the Usage:"+EchoClient.class.getSimpleName()+" <host> <port>");
         }
-        int port=Integer.valueOf(args[0]);
-        new EchoClient(port).start();
+        String host=args[0];
+        int port=Integer.valueOf(args[1]);
+        new EchoClient(host,port).start();
     }
 
     private void start() throws InterruptedException {
@@ -33,7 +36,7 @@ public class EchoClient {
         {
             final Bootstrap  bootstrap=new Bootstrap();
             bootstrap.group(eventLoopGroup).channel(NioSocketChannel.class)
-                    .localAddress(new InetSocketAddress(port))
+                    .remoteAddress(new InetSocketAddress(hostname,port))
                     .handler(new ChannelInitializer<SocketChannel>() {
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
                             socketChannel.pipeline().addLast(echoClientHandler);

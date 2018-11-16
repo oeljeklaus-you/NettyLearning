@@ -3,16 +3,20 @@ package cn.edu.hust;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;
+import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.util.CharsetUtil;
+
 //EchoServer的核心处理类
+@ChannelHandler.Sharable //标示为一个ChannelHandler可以为多个Channel安全的共享
 public class EchoServerHandler extends ChannelInboundHandlerAdapter {
 
     //处理消息
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf byteBuf=(ByteBuf) msg;
-        System.out.println("Server recived:"+byteBuf.toString());
+        System.out.println("Server received:"+byteBuf.toString(CharsetUtil.UTF_8));
         //发送给客户端,但是不冲刷出站消息
         ctx.write(byteBuf);
     }

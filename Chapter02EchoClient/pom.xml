@@ -11,5 +11,30 @@
 
     <artifactId>Chapter02-EchoClient</artifactId>
 
-
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>1.6.0</version>
+                    <executions>
+                        <execution>
+                            <id>run-client</id>
+                            <goals>
+                                <goal>java</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <mainClass>cn.edu.hust.EchoClient</mainClass>
+                        <arguments>
+                            <argument>${echo-server.hostname}</argument>
+                            <argument>${echo-server.port}</argument>
+                        </arguments>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
