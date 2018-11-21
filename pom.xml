@@ -12,6 +12,7 @@
         <module>Chapter01</module>
         <module>Chapter02EchoClient</module>
         <module>Chapter02EchoServer</module>
+        <module>Chapter03Transfer</module>
     </modules>
 
     <properties>

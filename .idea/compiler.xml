@@ -9,12 +9,14 @@
         <module name="Chapter01" />
         <module name="Chapter02EchoClient" />
         <module name="Chapter02EchoServer" />
+        <module name="Chapter03Transfer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chapter01" target="1.5" />
       <module name="Chapter02EchoClient" target="1.5" />
       <module name="Chapter02EchoServer" target="1.5" />
+      <module name="Chapter03Transfer" target="1.5" />
       <module name="NettyLearning" target="1.5" />
     </bytecodeTargetLevel>
   </component>
