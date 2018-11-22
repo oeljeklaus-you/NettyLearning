@@ -19,9 +19,10 @@
         <module>Chapter07Protobuf</module>
         <module>Chapter08MarShellingServer</module>
         <module>Chapter08MarShellingClient</module>
-        <module>Chapter09HttpFTPServer</module>
         <module>Chapter07ProtoBufServer</module>
         <module>Chapter07ProtoBufClient</module>
+        <module>Chapter09HttpFileServer</module>
+        <module>Chapter10UDPServer</module>
     </modules>
 
     <properties>

@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d15f2ba-efc6-4903-a31c-ffc73a981bc2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter07ProtoBufClient/Chapter07ProtoBufClient.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter07ProtoBufClient/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter07ProtoBufClient/src/main/java/cn/edu/hust/client/SubReqClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter07ProtoBufClient/src/main/java/cn/edu/hust/domain/SubscribeReq.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter07ProtoBufClient/src/main/java/cn/edu/hust/domain/SubscribeResp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter07ProtoBufClient/src/main/java/cn/edu/hust/handler/SubReqClientHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter07ProtoBufClient/src/main/java/cn/edu/hust/protobuf/SubscribeReqProto.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter07ProtoBufClient/src/main/java/cn/edu/hust/protobuf/SubscribeRespProto.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter09HttpFileServer/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter09HttpFileServer/src/main/java/cn/edu/hust/handler/HttpFileServerHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter09HttpFileServer/src/main/java/cn/edu/hust/server/HttpFileServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter10UDPServer/Chapter10UDPServer.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter10UDPServer/src/main/java/cn/edu/hust/handler/UDPServerChannel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter10UDPServer/src/main/java/cn/edu/hust/server/UDPServer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Chapter07ProtoBufServer/pom.xml" afterPath="$PROJECT_DIR$/Chapter07ProtoBufServer/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/Chapter07ProtoBufServer/src/main/java/cn/edu/hust/server/SubReqServer.java" afterPath="$PROJECT_DIR$/Chapter07ProtoBufServer/src/main/java/cn/edu/hust/server/SubReqServer.java" />
+      <change beforePath="$PROJECT_DIR$/Chapter09HttpFTPServer/Chapter09HttpFTPServer.iml" afterPath="$PROJECT_DIR$/Chapter09HttpFileServer/Chapter09HttpFileServer.iml" />
+      <change beforePath="$PROJECT_DIR$/Chapter09HttpFTPServer/pom.xml" afterPath="$PROJECT_DIR$/Chapter10UDPServer/pom.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,6 +33,8 @@
     <ignored path="$PROJECT_DIR$/Chapter09HttpFTPServer/target/" />
     <ignored path="$PROJECT_DIR$/Chapter07ProtoBufServer/target/" />
     <ignored path="$PROJECT_DIR$/Chapter07ProtoBufClient/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter09HttpFileServer/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter10UDPServer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +63,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SubReqServer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter07ProtoBufServer/src/main/java/cn/edu/hust/server/SubReqServer.java">
+      <file leaf-file-name="UDPServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter10UDPServer/src/main/java/cn/edu/hust/server/UDPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="18" column="89" lean-forward="false" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter10UDPServer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -92,11 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/hust/java/MyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/hust/echo/EchoServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/hust/echo/EchoServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/hust/echo/EchoClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/hust/echo/EchoClient.java" />
         <option value="$PROJECT_DIR$/Chapter02EchoClient/src/main/java/cn/edu/hust/EchoClientHandler.java" />
         <option value="$PROJECT_DIR$/Chapter02EchoServer/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter02EchoClient/pom.xml" />
@@ -133,7 +139,6 @@
         <option value="$PROJECT_DIR$/Chapter08MarShellingClient/src/main/java/cn/edu/hust/client/SubReqClient.java" />
         <option value="$PROJECT_DIR$/Chapter08MarShellingServer/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter08MarShellingClient/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter08MarShellingServer/src/main/java/cn/edu/hust/factory/MarshallingCodecFactory.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Chapter07Protobuf/src/main/java/cn/edu/hust/Encoder.java" />
@@ -143,6 +148,12 @@
         <option value="$PROJECT_DIR$/Chapter07ProtoBufServer/src/main/java/cn/edu/hust/server/SubReqServer.java" />
         <option value="$PROJECT_DIR$/Chapter07ProtoBufClient/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter07ProtoBufServer/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter09HttpFileServer/src/main/java/cn/edu/hust/server/HttpFileServer.java" />
+        <option value="$PROJECT_DIR$/Chapter09HttpFileServer/src/main/java/cn/edu/hust/handler/HttpFileServerHandler.java" />
+        <option value="$PROJECT_DIR$/Chapter10UDPServer/src/main/java/cn/edu/hust/handler/UDPServerChannel.java" />
+        <option value="$PROJECT_DIR$/Chapter10UDPServer/src/main/java/cn/edu/hust/server/UDPServer.java" />
+        <option value="$PROJECT_DIR$/Chapter10UDPServer/pom.xml" />
       </list>
     </option>
   </component>
@@ -227,6 +238,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,69 +249,10 @@
               <item name="NettyLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="NettyLearning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NettyLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NettyLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07ProtoBufServer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NettyLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NettyLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07ProtoBufServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NettyLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NettyLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07ProtoBufServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NettyLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NettyLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07ProtoBufServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NettyLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NettyLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07ProtoBufServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hust" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NettyLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NettyLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07ProtoBufServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hust" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NettyLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NettyLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07ProtoBufServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hust" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,8 +268,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.edu.hust.factory" />
       <recent name="cn.edu.hust.handler" />
+      <recent name="cn.edu.hust.factory" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -551,16 +507,17 @@
       <workItem from="1542852615228" duration="1780000" />
       <workItem from="1542858380769" duration="1503000" />
       <workItem from="1542871524442" duration="4990000" />
-      <workItem from="1542880321304" duration="2808000" />
+      <workItem from="1542880321304" duration="4556000" />
+      <workItem from="1542885646888" duration="19000" />
+      <workItem from="1542887663513" duration="1628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46046000" />
+    <option name="totallyTimeSpent" value="49441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -574,7 +531,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -605,32 +562,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingServer/src/main/java/cn/edu/hust/domain/SubscribeResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingServer/src/main/java/cn/edu/hust/server/SubReqServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MarShellingClient/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingClient/src/main/java/client/SubReqClient.java" />
-    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingClient/src/main/java/domain/SubscribeReq.java" />
-    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingClient/src/main/java/domain/SubscribeResp.java" />
-    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingClient/src/main/java/handler/SubReqClientHandler.java" />
-    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingClient/src/main/java/cn/edu/hust/domain/SubscribeReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter08MarShellingClient/src/main/java/cn/edu/hust/domain/SubscribeResp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -689,13 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter09HttpFTPServer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter09HttpFTPServer/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Chapter06JavaSerServer/src/main/java/cn/edu/hust/domain/SubscribeReq.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -708,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11077">
           <caret line="603" column="23" lean-forward="false" selection-start-line="603" selection-start-column="23" selection-end-line="603" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#41453#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,20 +650,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="354">
             <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -752,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="12" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="23" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
           <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,15 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="39" column="85" lean-forward="false" selection-start-line="39" selection-start-column="85" selection-end-line="39" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingServer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="47" column="25" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="47" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="48" column="25" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="48" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="690" column="0" lean-forward="false" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
           <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="1190" column="0" lean-forward="false" selection-start-line="1190" selection-start-column="0" selection-end-line="1190" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
           <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="477" column="15" lean-forward="false" selection-start-line="477" selection-start-column="15" selection-end-line="477" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="603" column="4" lean-forward="false" selection-start-line="603" selection-start-column="4" selection-end-line="603" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="964" column="0" lean-forward="false" selection-start-line="964" selection-start-column="0" selection-end-line="964" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,6 +825,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="753">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter09HttpFileServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingServer/src/main/java/cn/edu/hust/server/SubReqServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter09HttpFileServer/src/main/java/cn/edu/hust/handler/HttpFileServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter09HttpFileServer/src/main/java/cn/edu/hust/server/HttpFileServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1652">
+          <caret line="771" column="25" lean-forward="false" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="false" />
+            <element signature="e#32095#32096#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10UDPServer/src/main/java/cn/edu/hust/handler/UDPServerChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter08MarShellingServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="50" column="12" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="50" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10UDPServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10UDPServer/src/main/java/cn/edu/hust/server/UDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="89" lean-forward="false" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
           <folding />
         </state>
       </provider>
@@ -1051,7 +1017,7 @@
     </states>
   </component>
   <component name="mavenExecuteGoalHistory">
-    <option value="$PROJECT_DIR$/Chapter07ProtoBufServer" />
+    <option value="$PROJECT_DIR$/Chapter10UDPServer" />
     <option value="exec:java" />
     <option value="clean package" />
     <option value="exec:exec" />

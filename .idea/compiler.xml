@@ -18,7 +18,8 @@
         <module name="Chapter07ProtoBufServer" />
         <module name="Chapter08MarShellingClient" />
         <module name="Chapter08MarShellingServer" />
-        <module name="Chapter09HttpFTPServer" />
+        <module name="Chapter09HttpFileServer" />
+        <module name="Chapter10UDPServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,7 +37,9 @@
       <module name="Chapter07ProtoBufServer" target="1.6" />
       <module name="Chapter08MarShellingClient" target="1.5" />
       <module name="Chapter08MarShellingServer" target="1.5" />
+      <module name="Chapter09HttpFileServer" target="1.5" />
       <module name="Chapter09HttpFTPServer" target="1.5" />
+      <module name="Chapter10UDPServer" target="1.5" />
       <module name="MarShellingClient" target="1.5" />
       <module name="NettyLearning" target="1.5" />
     </bytecodeTargetLevel>

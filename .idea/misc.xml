@@ -10,6 +10,7 @@
       <set>
         <option value="$PROJECT_DIR$/Chapter06JavaSer/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter06JavaSerClient/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter09HttpFTPServer/pom.xml" />
         <option value="$PROJECT_DIR$/MarShellingClient/pom.xml" />
       </set>
     </option>
