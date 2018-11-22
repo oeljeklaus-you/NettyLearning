@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter05ByteBuf/Chapter05ByteBuf.iml" filepath="$PROJECT_DIR$/Chapter05ByteBuf/Chapter05ByteBuf.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter06JavaSerClient/Chapter06JavaSerClient.iml" filepath="$PROJECT_DIR$/Chapter06JavaSerClient/Chapter06JavaSerClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter06JavaSerServer/Chapter06JavaSerServer.iml" filepath="$PROJECT_DIR$/Chapter06JavaSerServer/Chapter06JavaSerServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter07ProtoBufServer/Chapter07ProtoBufServer.iml" filepath="$PROJECT_DIR$/Chapter07ProtoBufServer/Chapter07ProtoBufServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter07Protobuf/Chapter07Protobuf.iml" filepath="$PROJECT_DIR$/Chapter07Protobuf/Chapter07Protobuf.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter08MarShellingClient/Chapter08MarShellingClient.iml" filepath="$PROJECT_DIR$/Chapter08MarShellingClient/Chapter08MarShellingClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter08MarShellingServer/Chapter08MarShellingServer.iml" filepath="$PROJECT_DIR$/Chapter08MarShellingServer/Chapter08MarShellingServer.iml" />
