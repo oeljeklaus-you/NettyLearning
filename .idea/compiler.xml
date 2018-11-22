@@ -10,6 +10,9 @@
         <module name="Chapter02EchoClient" />
         <module name="Chapter02EchoServer" />
         <module name="Chapter03Transfer" />
+        <module name="Chapter05ByteBuf" />
+        <module name="Chapter06JavaSerClient" />
+        <module name="Chapter06JavaSerServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +20,10 @@
       <module name="Chapter02EchoClient" target="1.5" />
       <module name="Chapter02EchoServer" target="1.5" />
       <module name="Chapter03Transfer" target="1.5" />
+      <module name="Chapter05ByteBuf" target="1.5" />
+      <module name="Chapter06JavaSer" target="1.5" />
+      <module name="Chapter06JavaSerClient" target="1.5" />
+      <module name="Chapter06JavaSerServer" target="1.5" />
       <module name="NettyLearning" target="1.5" />
     </bytecodeTargetLevel>
   </component>

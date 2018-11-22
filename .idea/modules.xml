@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter02EchoClient/Chapter02EchoClient.iml" filepath="$PROJECT_DIR$/Chapter02EchoClient/Chapter02EchoClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter02EchoServer/Chapter02EchoServer.iml" filepath="$PROJECT_DIR$/Chapter02EchoServer/Chapter02EchoServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter03Transfer/Chapter03Transfer.iml" filepath="$PROJECT_DIR$/Chapter03Transfer/Chapter03Transfer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter05ByteBuf/Chapter05ByteBuf.iml" filepath="$PROJECT_DIR$/Chapter05ByteBuf/Chapter05ByteBuf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter06JavaSerClient/Chapter06JavaSerClient.iml" filepath="$PROJECT_DIR$/Chapter06JavaSerClient/Chapter06JavaSerClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter06JavaSerServer/Chapter06JavaSerServer.iml" filepath="$PROJECT_DIR$/Chapter06JavaSerServer/Chapter06JavaSerServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyLearning.iml" filepath="$PROJECT_DIR$/NettyLearning.iml" />
     </modules>
   </component>

@@ -13,6 +13,9 @@
         <module>Chapter02EchoClient</module>
         <module>Chapter02EchoServer</module>
         <module>Chapter03Transfer</module>
+        <module>Chapter05ByteBuf</module>
+        <module>Chapter06JavaSerServer</module>
+        <module>Chapter06JavaSerClient</module>
     </modules>
 
     <properties>
