@@ -19,6 +19,7 @@
         <module name="Chapter08MarShellingClient" />
         <module name="Chapter08MarShellingServer" />
         <module name="Chapter09HttpFileServer" />
+        <module name="Chapter10UDPClient" />
         <module name="Chapter10UDPServer" />
       </profile>
     </annotationProcessing>
@@ -39,6 +40,7 @@
       <module name="Chapter08MarShellingServer" target="1.5" />
       <module name="Chapter09HttpFileServer" target="1.5" />
       <module name="Chapter09HttpFTPServer" target="1.5" />
+      <module name="Chapter10UDPClient" target="1.5" />
       <module name="Chapter10UDPServer" target="1.5" />
       <module name="MarShellingClient" target="1.5" />
       <module name="NettyLearning" target="1.5" />

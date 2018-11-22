@@ -20,7 +20,7 @@ public class UDPServer {
                 .localAddress(new InetSocketAddress(port)).option(ChannelOption.SO_BROADCAST,true)
                 .handler(new UDPServerChannel());
         ChannelFuture future=bootstrap.bind().sync();
-        future.channel().closeFuture().sync();
+        future.channel().closeFuture().await();
         if(!future.isSuccess())
         {
             group.shutdownGracefully();

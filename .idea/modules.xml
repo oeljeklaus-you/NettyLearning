@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter08MarShellingClient/Chapter08MarShellingClient.iml" filepath="$PROJECT_DIR$/Chapter08MarShellingClient/Chapter08MarShellingClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter08MarShellingServer/Chapter08MarShellingServer.iml" filepath="$PROJECT_DIR$/Chapter08MarShellingServer/Chapter08MarShellingServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter09HttpFileServer/Chapter09HttpFileServer.iml" filepath="$PROJECT_DIR$/Chapter09HttpFileServer/Chapter09HttpFileServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter10UDPClient/Chapter10UDPClient.iml" filepath="$PROJECT_DIR$/Chapter10UDPClient/Chapter10UDPClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter10UDPServer/Chapter10UDPServer.iml" filepath="$PROJECT_DIR$/Chapter10UDPServer/Chapter10UDPServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyLearning.iml" filepath="$PROJECT_DIR$/NettyLearning.iml" />
     </modules>

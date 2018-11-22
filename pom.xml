@@ -23,6 +23,7 @@
         <module>Chapter07ProtoBufClient</module>
         <module>Chapter09HttpFileServer</module>
         <module>Chapter10UDPServer</module>
+        <module>Chapter10UDPClient</module>
     </modules>
 
     <properties>
