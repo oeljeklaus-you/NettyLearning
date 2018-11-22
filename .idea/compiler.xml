@@ -28,7 +28,7 @@
       <module name="Chapter06JavaSer" target="1.5" />
       <module name="Chapter06JavaSerClient" target="1.5" />
       <module name="Chapter06JavaSerServer" target="1.5" />
-      <module name="Chapter07Protobuf" target="1.5" />
+      <module name="Chapter07Protobuf" target="1.6" />
       <module name="Chapter07ProtoBuf" target="1.5" />
       <module name="Chapter08MarShellingClient" target="1.5" />
       <module name="Chapter08MarShellingServer" target="1.5" />

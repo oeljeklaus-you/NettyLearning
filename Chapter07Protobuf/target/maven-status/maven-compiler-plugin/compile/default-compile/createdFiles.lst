@@ -1,0 +1,8 @@
+cn/edu/hust/domain/SubscribeReq.class
+cn/edu/hust/protobuf/SubscribeReqProto.class
+cn/edu/hust/protobuf/SubscribeReqProto$SubscribeReq$Builder.class
+cn/edu/hust/protobuf/SubscribeReqProto$1.class
+cn/edu/hust/protobuf/SubscribeReqProto$SubscribeReq.class
+cn/edu/hust/protobuf/SubscribeReqProto$SubscribeReq$1.class
+cn/edu/hust/protobuf/SubscribeReqProto$SubscribeReqOrBuilder.class
+cn/edu/hust/domain/SubscribeResp.class

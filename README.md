@@ -53,6 +53,15 @@
 ## 第七章 Protobuf序列化
 ### Protobuf的使用
  使用Protobuf进行序列化,具有跨平台和语言无关,序列化后小等特点
+ 
+ 1.安装protobuf
+   brew install protobuf
+   
+ 2.编辑SubscribeReq.proto
+   ![proto示例](img/proto示例.png)
+ 
+ 3.运行protoc命令
+   protoc -I=./ --java_out=../src/main/java/ ./SubscribeReq.proto 
 ### Protobuf序列化
  使用Protobuf进行序列化,开发服务器端与客户端
 ### 客户端和服务端开发
