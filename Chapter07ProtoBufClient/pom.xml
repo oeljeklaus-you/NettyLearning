@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Chapter07ProtoBufServer</artifactId>
+    <artifactId>Chapter07ProtoBufClient</artifactId>
 
     <dependencies>
         <dependency>
@@ -28,21 +28,23 @@
 
     <build>
         <plugins>
-           <plugin>
+
+            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <executions>
                     <execution>
-                        <id>run-server</id>
+                        <id>run-client</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>cn.edu.hust.server.SubReqServer</mainClass>
+                    <mainClass>cn.edu.hust.client.SubReqClient</mainClass>
                     <arguments>
+                        <argument>${echo-server.hostname}</argument>
                         <argument>${echo-server.port}</argument>
                     </arguments>
                 </configuration>

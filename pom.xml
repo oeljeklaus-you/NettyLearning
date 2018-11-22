@@ -21,6 +21,7 @@
         <module>Chapter08MarShellingClient</module>
         <module>Chapter09HttpFTPServer</module>
         <module>Chapter07ProtoBufServer</module>
+        <module>Chapter07ProtoBufClient</module>
     </modules>
 
     <properties>
