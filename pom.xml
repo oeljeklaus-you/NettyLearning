@@ -16,6 +16,9 @@
         <module>Chapter05ByteBuf</module>
         <module>Chapter06JavaSerServer</module>
         <module>Chapter06JavaSerClient</module>
+        <module>Chapter07Protobuf</module>
+        <module>Chapter08MarShellingServer</module>
+        <module>Chapter08MarShellingClient</module>
     </modules>
 
     <properties>

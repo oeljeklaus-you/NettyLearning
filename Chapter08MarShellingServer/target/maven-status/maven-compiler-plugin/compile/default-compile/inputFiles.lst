@@ -1,0 +1,5 @@
+/Users/youyujie/Documents/NettyLearning/Chapter08MarShellingServer/src/main/java/cn/edu/hust/factory/MarshallingCodecFactory.java
+/Users/youyujie/Documents/NettyLearning/Chapter08MarShellingServer/src/main/java/cn/edu/hust/domain/SubscribeReq.java
+/Users/youyujie/Documents/NettyLearning/Chapter08MarShellingServer/src/main/java/cn/edu/hust/server/SubReqServer.java
+/Users/youyujie/Documents/NettyLearning/Chapter08MarShellingServer/src/main/java/cn/edu/hust/domain/SubscribeResp.java
+/Users/youyujie/Documents/NettyLearning/Chapter08MarShellingServer/src/main/java/cn/edu/hust/handler/SubReqServerHandler.java

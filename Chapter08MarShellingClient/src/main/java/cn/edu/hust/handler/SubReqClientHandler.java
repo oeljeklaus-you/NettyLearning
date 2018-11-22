@@ -4,7 +4,6 @@ package cn.edu.hust.handler;
 import cn.edu.hust.domain.SubscribeReq;
 import cn.edu.hust.domain.SubscribeResp;
 import io.netty.channel.ChannelHandler;
-import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
@@ -29,7 +28,7 @@ public class SubReqClientHandler extends SimpleChannelInboundHandler<SubscribeRe
         SubscribeReq subscribeReq=new SubscribeReq();
         subscribeReq.setAddress("湖北省武汉市");
         subscribeReq.setPhoneNumber("1242342");
-        subscribeReq.setProductName("Netty in Action");
+        subscribeReq.setProductName("Netty in Action for  MarShalling");
         subscribeReq.setSubReqID(i);
         subscribeReq.setUserName("Lilinfeng");
         return subscribeReq;
