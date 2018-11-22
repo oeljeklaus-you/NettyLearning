@@ -37,5 +37,34 @@
  
  你也可能遇到它被称为普通 I/O(plain I/O)的时候。
  
-#### 选择器
+## 第二章 开发第一个Netty服务器
+### EchoServer开发
+ EchoServer进行开发,详情见代码
+### EchoClient开发
+ EchoClient进行开发,详情见代码
+## 第六章 Java的序列化
+### 通过Java的序列化来进行通信
+ 使用ObjectDecoder和ObjectEncoder进行解码和避免
+### 服务端开发
+ 对于ObjectDecoder可能存在拆包和粘包的问题,加你设置objectSize的大小为Integer.MAX_SIZE
+### 客户端开发
+ 在pipeline中添加解码和编码器
+ 
+## 第七章 Protobuf序列化
+### Protobuf的使用
+ 使用Protobuf进行序列化,具有跨平台和语言无关,序列化后小等特点
+### Protobuf序列化
+ 使用Protobuf进行序列化,开发服务器端与客户端
+### 客户端和服务端开发
+ 与第六章相似主要是解码编码起的使用
+ 
+## 第八章 MarShalling序列化
+### JBoss进行序列化
+ MarShalling完全兼容JDK序列化,对JBoss的解码编码类库进行封装
+### 保留Java序列化的优势
+ 完全兼容JDK序列化,通过Netty的Marshalling进行解编类
+### 客户端和服务端开发
+  与第六章相似主要是解码编码起的使用
+ 
+## 第九章 Http协议开发应用
  

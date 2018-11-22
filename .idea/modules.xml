@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter07Protobuf/Chapter07Protobuf.iml" filepath="$PROJECT_DIR$/Chapter07Protobuf/Chapter07Protobuf.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter08MarShellingClient/Chapter08MarShellingClient.iml" filepath="$PROJECT_DIR$/Chapter08MarShellingClient/Chapter08MarShellingClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter08MarShellingServer/Chapter08MarShellingServer.iml" filepath="$PROJECT_DIR$/Chapter08MarShellingServer/Chapter08MarShellingServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter09HttpFTPServer/Chapter09HttpFTPServer.iml" filepath="$PROJECT_DIR$/Chapter09HttpFTPServer/Chapter09HttpFTPServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyLearning.iml" filepath="$PROJECT_DIR$/NettyLearning.iml" />
     </modules>
   </component>
